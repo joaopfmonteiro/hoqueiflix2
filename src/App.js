@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './app.css';
 import tmdb from './tmdb';
 import MovieRow from './components/movieRow';
 import { movieList } from './components/movieList';
