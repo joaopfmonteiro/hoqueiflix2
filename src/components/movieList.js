@@ -18,6 +18,7 @@ export const movieList  =[
     description : 'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
     genres : 'Sport',
     video:'https://www.youtube.com/watch?v=kUZnglO8kWw&ab_channel=H%C3%B3queiClubedeTurquel',
+    videoId: 'kUZnglO8kWw',
      },
      {
     gameName : 'SC Tomar vs HC Turquel',
@@ -28,6 +29,7 @@ export const movieList  =[
     description : 'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
     genres : 'Sport' ,
     video: 'https://www.youtube.com/watch?v=fDZh28UWje8&list=PLbr2pZ-7rEJoy5lqlJ03ch4eMlujQQFSF&index=2&ab_channel=R%C3%A1dioCidadedeTomar',
+    videoId: '1i4-EM06dUg',
      },
      {
     gameName : 'HC Turquel vs AD Valongo',
@@ -38,8 +40,8 @@ export const movieList  =[
     description :'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
     genres : 'Sport' ,
     video: 'https://www.youtube.com/watch?v=1i4-EM06dUg&t=1802s&ab_channel=H%C3%B3queiClubedeTurquel',
-    },
-    {
+},
+{
     gameName : 'Biblioteca IR vs S. Alenquer e Benfica',
     division : 'Second South Division',
     season : '2021/2022',
@@ -48,8 +50,9 @@ export const movieList  =[
     description :'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
     genres : 'Sport' , 
     video : 'https://www.youtube.com/watch?v=AxxtW2kLwbI&t=6188s&ab_channel=BIRTV',
-    },
-    {
+    videoId: 'AxxtW2kLwbI',
+},
+{
     gameName : 'Biblioteca IR vs CD CRIAR-T',
     division : 'Second South Division',
     season : '2021/2022',
@@ -58,6 +61,7 @@ export const movieList  =[
     description :'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
     genres : 'Sport' ,
     video : 'https://www.youtube.com/watch?v=c0f7BGIOrcU&ab_channel=BIRTV',
+    videoId: 'c0f7BGIOrcU',
     },
     {
     gameName : 'HC Braga vs HC Turquel',
@@ -65,9 +69,9 @@ export const movieList  =[
     season : '2021/2022',
     poster_path: 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/Braga%20vs%20turquel.PNG?alt=media&token=c3da9674-084d-4b52-a90c-c8c6f6b89fc3',
     backgroundImage : 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragaback.PNG?alt=media&token=66a1fc07-af6d-4423-b059-e971e8497964',
-    description :'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
+    description :'Jogo referente à 12ª jornada do campeonato nacional colocando frente a frente a equipa do minho HC Braga e os "brutos dos queixos" HC Turquel.',
     genres : 'Sport' ,
-    video : 0 ,
+    video : 'https://www.youtube.com/watch?v=RMRP15il_9w&ab_channel=H%C3%B3queiClubedeBraga%E2%80%A2HCBPlay' ,
     },
     {
     gameName : 'HC Braga vs UD Oliveirense',
@@ -75,9 +79,10 @@ export const movieList  =[
     season : '2021/2022',
     poster_path: 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragavsoliveirense.PNG?alt=media&token=d6207eaf-c3e4-40fc-a008-bef10cc2c681',
     backgroundImage : 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragaback.PNG?alt=media&token=66a1fc07-af6d-4423-b059-e971e8497964',
-    description : 'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
+    description : 'A equipa minhota HC Braga enfrenta na 8ª jornada um histórico do hoquei patinado português UD Oliveirense, quem ganhará?',
     genres : 'Sport' ,
-    video : 0 ,
+    video : 'https://www.youtube.com/watch?v=SEEySZUdYm8&ab_channel=H%C3%B3queiClubedeBraga%E2%80%A2HCBPlay',
+    videoId : 'SEEySZUdYm8',
     },
     {
     gameName : 'HC Braga vs AJ Viana',
@@ -85,9 +90,10 @@ export const movieList  =[
     season : '2021/2022',
     poster_path: 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragavsviana.PNG?alt=media&token=52721190-da99-4358-9a5f-491dfc24ed3d',
     backgroundImage : 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragaback.PNG?alt=media&token=66a1fc07-af6d-4423-b059-e971e8497964',
-    description : 'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
+    description : 'A 5ª jornada do campeonato nacional de hoquei patins está ai, colocando frente a frente HC Braga e AJ Viana.',
     genres : 'Sport' ,
-    video : 0 ,
+    video : 'https://www.youtube.com/watch?v=6S113gqIV4Y&ab_channel=H%C3%B3queiClubedeBraga%E2%80%A2HCBPlay' ,
+    videoId: '6S113gqIV4Y',
     },
     {
     gameName : 'HC Braga vs Parede FC',
@@ -95,9 +101,10 @@ export const movieList  =[
     season : '2021/2022',
     poster_path: 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragavsparede.PNG?alt=media&token=bd80c689-9783-459e-a1db-80a806f82195',
     backgroundImage : 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/bragaback.PNG?alt=media&token=66a1fc07-af6d-4423-b059-e971e8497964',
-    description : 'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
+    description : 'A equipa do município de Cascais Parede FC após uma subida ao campeonato nacional de hoquei patins prepara-se para um duro teste em casa do HC Braga',
     genres : 'Sport' ,
-    video : 0 ,
+    video : 'https://www.youtube.com/watch?v=6S113gqIV4Y&ab_channel=H%C3%B3queiClubedeBraga%E2%80%A2HCBPlay' ,
+    videoId: '6S113gqIV4Y',
     },
     {
     gameName : 'SC Tomar VS FC Porto',
@@ -105,9 +112,10 @@ export const movieList  =[
     season : '2021/2022',
     poster_path: 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/marinenseVsTomar.PNG?alt=media&token=73d0515d-7c02-4f70-9947-4415da375944',
     backgroundImage : 'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/TomarBack2.PNG?alt=media&token=841a3503-33ee-4b60-9606-0a913e1617c3',
-    description : 'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
+    description : '12ª jornada do campeonato nacional de hoquei em patins com um grande jogo com a equipa de Tomar que tem vindo a crescer ao longo das ultimas epocas com o histórico europeu FC Porto.',
     genres : 'Sport' ,
-    video : 0 ,
+    video : 'https://www.youtube.com/watch?v=pwSbrnf9tVg&list=PLbr2pZ-7rEJoy5lqlJ03ch4eMlujQQFSF&index=7&ab_channel=R%C3%A1dioCidadedeTomar' ,
+    videoId: 'pwSbrnf9tV',
     },
     {
     gameName : 'SC Tomar vs HC Braga',
@@ -115,7 +123,7 @@ export const movieList  =[
     season : '2021/2022',
     poster_path: 'https://fpp.pt/wp-content/uploads/WRG19.0035_0326.jpg',
     backgroundImage :'https://firebasestorage.googleapis.com/v0/b/hoqueiflix2.appspot.com/o/TomarBack2.PNG?alt=media&token=841a3503-33ee-4b60-9606-0a913e1617c3',
-    description :'Jogo do campeonato nacional disputado entre duas grandes equipas.....',
+    description :'SC Tomar com a obrigação de receber ',
     genres : 'Sport' ,
     video : 0 ,
     },
@@ -138,6 +146,7 @@ export const movieList  =[
     description :'Jogo referente à 11ª jornada do campeonato nacional zona sul opondo a equipa valadense, Biblioteca Intrução e Recreio e FC Alverca',
     genres : 'Sport' ,
     video : 'https://www.youtube.com/watch?v=UrqpNpHfcO4&ab_channel=BIRTV',
+    videoId: 'UrqpNpHfcO4',
     },
     {
     gameName : 'Biblioteca IR vs Candelária SC',
@@ -148,6 +157,7 @@ export const movieList  =[
     description :'Jogo referente à 2ª jornada do campeonato nacional zona sul opondo duas equipas bem conhecidas, Biblioteca Intrução e Recreio e Candelária Sport Clube. ',
     genres : 'Sport' ,
     video : 'https://www.youtube.com/watch?v=EQhsz-qXdRA&ab_channel=BIRTV',
+    videoId: 'EQhsz-qXdRA',
     },
 
 ]

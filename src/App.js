@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './app.css';
+import './App.css';
 import tmdb from './tmdb';
 import MovieRow from './components/movieRow';
 import movieListComponent from './components/movieList';
@@ -21,7 +21,6 @@ export default () => {
       let randomChosen = Math.floor(Math.random() * movieRandom.length);  
       let chosen = movieRandom[randomChosen];
       setFeaturedData(chosen)
-      console.log(chosen)
         
     }
     loadAll();
