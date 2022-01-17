@@ -9,12 +9,8 @@ export default {
                 items: movieList.getDivision('National Championship')
             },
             {
-                title: "Second North Division",
-                items: movieList.getDivision('Second North Division')
-            },
-            {
-                title: "Second South Division",
-                items: movieList.getDivision('Second South Division')
+                title: "Second Division",
+                items: movieList.getDivision('Second Division')
             },
         ];
     },
