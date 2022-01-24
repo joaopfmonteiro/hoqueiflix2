@@ -17,11 +17,10 @@ export default ({item}) => {
                         <div className="featured--division">{item.division}</div>
                     </div>
                     <div className="featured--discription">{item.description}</div>
-                    <div className="featured--buttons">
-                        {/* <a href={`${item.video}`} className="featured--watchButton">►Assistir</a> */}                    
                         <iframe id="featured--openVideo" type="text/html"
                         src={`http://www.youtube.com/embed/${item.videoId}?autoplay=1&origin=http://example.com`}
                         frameborder="0"/>
+                    <div className="featured--buttons">                    
                         <a href={item.videoH2} className="featured--watchButton">►Assistir</a>
                         <a href={`/list/add/${item.id}`}className="featured--myListButton">+ Minha Lista</a>
 
