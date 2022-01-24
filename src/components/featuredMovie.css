@@ -14,13 +14,13 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
-    padding-bottom: 150px;
-    padding-top: 70px;
+    padding-bottom: 100px;
+    padding-top: 20px;
 }
 .featured--name {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
-    max-width: 45%;
+    max-width: 50%;
 }
 .featured--info {
     font-size: 18px;
@@ -37,8 +37,8 @@
     margin-right: 15px;
 }
 .featured--discription {
-    margin-top: 15px;
-    font-size: 25px;
+    margin-top: 3vh;
+    font-size: 20px;
     color: #999;
     max-width: 40%;
 }
@@ -71,6 +71,7 @@
     color: #fff;
 }
 #featured--openVideo {
-    width: 500px;
-    height: 320px;
+    margin-top: 2vh;
+    width: 400px;
+    height: 250px;
 }
